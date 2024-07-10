@@ -1,0 +1,36 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: dodgerblue;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+.editing td:not(:first-child),
+.creating td:not(:first-child) {
+  padding: 0px;
+}
+.editing td input,
+.creating td input {
+  padding: 10px 5px;
+}
+td:last-child {
+    padding: 0;
+}
+td button {
+    width: 4rem;
+    height: 2rem;
+}
